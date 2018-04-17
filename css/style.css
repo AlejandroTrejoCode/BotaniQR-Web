@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.login {
+    min-height: 100vh;
+}
+
+.login-left, .login-right {
+    min-height: 100vh !important;
+}
