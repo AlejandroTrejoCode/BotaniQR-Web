@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>BotaniQR - Noticias</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <nav class="green darken-3">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">
+                <img class="logo" src="img/Logo.png" alt="BotaniQR Logo">
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="title">
+            <h5>Todas las noticias</h5>
+        </div>
+        <div id="PrincipalContainer">
+            <div class="row">
+                <div id="tarjetas"></div>
+            </div>
+            <h5 class="paddingtb">
+                <a href="verPlantas.html">Ver Plantas</a>
+            </h5>
+        </div>
+    </div>
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large waves-effect waves-light cyan darken-4" href="crearNoticia.html">
+            <i class="material-icons">add</i>
+        </a>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="js/firebaseInit.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/tarjeta.js"></script>
+    <script>
+        $(document).ready(function() {
+            var database = firebase.database().ref();
+            var infoNoticias = database.child("informacion_noticias");
+            infoNoticias.on('value', function(snapshot){
+                $("#tarjetas").empty();
+                var noticias = snapshot.val();
+                for(noticia in noticias){
+                    var id = noticia;
+                    var name = noticias[noticia]["nombre"];
+                    var description = noticias[noticia]["descripcion"];
+                    var url = noticias[noticia]["url"];
+                    var html = crearTarjetaNoticias(id,name,description,url);
+                    $("#tarjetas").append(html);
+                }
+            });
+        });
+    </script>
+</body>

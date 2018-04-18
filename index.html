@@ -3,25 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>BotaniQR - Web</title>
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" media="screen">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
    
     <div class="login">
-        <div class="row">
-            <div class="col s6 login-left white">
-                <p>Hola</p>
+        <div class="left">
+
+        </div>
+        <div class="right">
+            <div class="logo">
+                <img src="img/UPQROOCirculeSmall.png" alt="">
             </div>
-            <div class="col s6 login-right black">
-                <h2>Hi</h2>
+            <div class="title">
+                <h1>BotaniQR - Administrador</h1>
             </div>
+            <div class="subtitle">
+                <h2>Inicia sesión para continuar</h2>
+            </div>
+            <div class="google-button">
+                <img id="google-button" src="img/google-button.png" alt="">
+            </div>
+
         </div>
     </div>
     
-    
-    <script src="js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="js/firebaseInit.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

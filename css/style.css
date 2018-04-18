@@ -3,10 +3,81 @@
     margin: 0;
 }
 
-.login {
-    min-height: 100vh;
+.paddingtb {
+    padding: 15px 0;
 }
 
-.login-left, .login-right {
-    min-height: 100vh !important;
+.fullheight{
+    height: 100vh;
+}
+
+.login {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login .left {
+    width: 55%;
+    min-height: 100vh;
+    background-image: url(../img/login.jpg);
+    background-size: cover;
+}
+
+.login .right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.login .right .logo {
+    width: 40%;
+    display: flex;
+    padding: 15px 0;
+}
+
+.login .subtitle {
+    padding: 15px 0;
+}
+
+.google-button {
+    padding: 15px 0;
+}
+
+nav .logo {
+    height: 50px;
+    margin: 5px 0;
+}
+
+.tarjeta {
+    height: auto;
+}
+
+.card-image {
+    height: 200px;
+}
+
+.card-content {
+    width: 100%;
+    line-height: 1.5rem;
+
+}
+
+.card-content p {
+    overflow: hidden;
+    max-height: 4.5rem;
+}
+
+.card-content p:after {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+}
+
+.text-shadow {
+    text-shadow: 0 0 2px #000;
 }
