@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s;
+}
+
+body {
+    font-family: 'Roboto', sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
+div, header, footer {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex div, .flex img {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.container {
+    width: 90%;
+}
+
+.justify {
+    justify-content: center;
+}
+
+.align {
+    align-items: center;
+}
+
+.responsive-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top {
+    background-color: #7cb342;
+    height: 50px;
+}
+
+.header-top {
+    font-size: 0.8em;
+}
+
+.header-top a {
+    color: #fff;
+}
+
+.header-top i {
+    padding: 0 16px;
+}
+
+.header-top .university .name {
+    width: 60%;
+}
+
+.header-top .university .phone, .header-top .university .email {
+    width: 20%;
+    justify-content: flex-end;
+}
+
+.header-main {
+    padding: 8px 0;
+    border-bottom: 2px solid #efefef;
+}
+
+.header-main .logo {
+    width: 40%;
+    justify-content: flex-start;
+}
+
+.header-main .logo img {
+    height: 60px;
+}
+
+.header-main nav {
+    width: 60%;
+    justify-content: flex-end;
+}
+
+.header-main nav ul li {
+    padding: 8px 16px;
+}
+
+.header-main nav ul li a {
+    color: #191919;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    body {
+        background: red;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    body {
+        background: blue;
+    }
+
+    .header-top .university .name {
+        width: 40%;
+    }
+
+    .header-top .university .phone, .header-top .university .email {
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        background: gray;
+    }
+
+    .header-top .university .name {
+        width: 100%;
+    }
+
+    .header-top .university .phone, .header-top .university .email {
+        display: none;
+    }
+
+    .header-main nav {
+        display: none;
+    }
+
+    .header-main .logo {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    body {
+        background: white;
+    }
+
+}
