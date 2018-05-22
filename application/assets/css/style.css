@@ -1,11 +1,39 @@
+
 * {
     padding: 0;
     margin: 0;
     transition: all 0.5s;
+
+    /* ----- Variables ----- */
+
+    /* ----- Tamaño de fuentes ----- */
+    --text-size-small: 0.9em;
+    --text-size-normal: 1em;
+    --text-size-regular: 1.1em;
+    --text-size-medium: 1.5em;
+    --text-size-large: 1.7em;
+
+    /* ----- Grosor de fuente ----- */
+    --weight-light: 300;
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-bold: 700;
+
+    /* ----- Colores ----- */
+    --lightGreen: #7cb342;
+    --lightGray: #999999;
+    --black: #000000;
+    --white: #ffffff;
+
+    /* ----- Paddings ----- */
+    --padding: 8px;
+    --margin: 8px;
+
 }
 
 body {
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f6;;
 }
 
 a {
@@ -25,6 +53,24 @@ div, header, footer {
     width: 100%;
 }
 
+p {
+    font-size: var(--text-size-normal);
+    font-weight: var(--weight-regular);
+    text-align: justify;
+}
+
+h2 {
+    font-size: var(--text-size-medium);
+    font-weight: var(--weight-bold);
+    padding: var(--padding);
+}
+
+h3 {
+    font-size: var(--text-size-regular);
+    font-weight: var(--weight-medium);
+    padding: var(--padding) 0;
+}
+
 .flex {
     display: flex;
 }
@@ -39,6 +85,10 @@ div, header, footer {
 
 .column {
     flex-direction: column;
+}
+
+.row-responsive {
+    flex-direction: row;
 }
 
 .container {
@@ -59,8 +109,36 @@ div, header, footer {
     align-items: center;
 }
 
+.white-space-25 {
+    margin: 25px 0;
+}
+
+.white-space-16 {
+    margin: 16px 0;
+}
+
+.title {
+    border-left: 2px solid #2e7d32;
+}
+
+.read-more{
+    margin: 4px 0;
+    color: #2e7d32;
+    font-weight: var(--weight-medium);
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.read-more i {
+    font-weight: bold;
+}
+
+/* ----- HEADER ----- */
+
 .header-top {
-    background-color: #7cb342;
+    background-color: var(--lightGreen);
     height: 50px;
 }
 
@@ -88,6 +166,7 @@ div, header, footer {
 .header-main {
     padding: 8px 0;
     border-bottom: 2px solid #efefef;
+    background-color: var(--white);
 }
 
 .header-main .logo {
@@ -113,6 +192,58 @@ div, header, footer {
     font-weight: 500;
 }
 
+/* ----- NOTICES CARDS ----- */
+
+.notice-card {
+    /*box-shadow: 0 0 5px 0 rgba(0,0,0,.09);*/
+}
+
+.cards-container {
+    justify-content: space-between;
+}
+
+.notice-card {
+    width: 32%;
+    height: auto;
+    background-color: var(--white);
+}
+
+.card-title h3 {
+    width: 97%;
+    text-align: left;
+}
+
+.card-details {
+    justify-content: space-between;
+}
+
+.card-date {
+    width: 15%;
+    background-color: var(--black);
+    color: var(--white);
+    padding: var(--padding) 0;
+}
+
+.card-date p {
+    text-align: center;
+}
+
+.card-date p time {
+    font-weight: var(--weight-medium);
+}
+
+.card-description {
+    width: 80%;
+    height: inherit;
+    padding: var(--padding) 0;
+}
+
+.card-description p{
+    font-weight: var(--weight-light);
+    font-size: var(--text-size-small);
+    color: var(--lightGray);
+    width: 95%;
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -143,6 +274,15 @@ div, header, footer {
 
     body {
         background: gray;
+    }
+
+    .row-responsive {
+        flex-direction: column;
+    }
+
+    .notice-card {
+        width: 100%;
+        margin: 16px 0;
     }
 
     .header-top .university .name {
