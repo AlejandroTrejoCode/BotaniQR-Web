@@ -1,0 +1,8 @@
+Por cuestiones de seguridad se recomienda que las conecciones utilicen un usuario y una contraseña por cada base de datos
+En este caso
+dbName: botanicqr
+user: bqruser
+password: botanicqr123
+
+Create user 'bqruser'@'localhost' identified by 'botanicqr123';
+Grant All PRIVILEGES on botanicqr.* to 'bqruser'@'localhost';
