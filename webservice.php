@@ -8,7 +8,6 @@
 
 require_once 'application/core/dbConection.php';
 
-/* comprobamos que el usuario nos viene como un parametro */
 if(isset($_GET['cod'])) {
 
     /* utilizar la variable que nos viene o establecerla nosotros */

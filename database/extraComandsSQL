@@ -4,5 +4,7 @@ dbName: botanicqr
 user: bqruser
 password: botanicqr123
 
+webservice.php?cod=UPQROO_P_1;
+
 Create user 'bqruser'@'localhost' identified by 'botanicqr123';
 Grant All PRIVILEGES on botanicqr.* to 'bqruser'@'localhost';
