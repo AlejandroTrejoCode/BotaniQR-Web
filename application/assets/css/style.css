@@ -21,6 +21,7 @@
 
     /* ----- Colores ----- */
     --lightGreen: #7cb342;
+    --darkGreen: #2a7d2e;
     --lightGray: #999999;
     --darkGray: #666666;
     --black: #000000;
@@ -46,6 +47,7 @@ a {
 img {
     max-width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 li {
@@ -243,14 +245,18 @@ h3 {
     justify-content: space-between;
 }
 
-.card-date {
+.card-date, .card-status {
     width: 15%;
     background-color: var(--black);
     color: var(--white);
     padding: var(--padding) 0;
 }
 
-.card-date p {
+.card-status {
+    background-color: var(--darkGreen);
+}
+
+.card-date p, .card-status i {
     text-align: center;
 }
 
@@ -289,7 +295,6 @@ h3 {
 .btn-action {
     justify-content: flex-end;
 }
-
 
 @media screen and (max-width: 1200px) {
 
@@ -333,18 +338,24 @@ h3 {
 
 @media screen and (max-width: 768px) {
 
-
     body {
         background: gray;
     }
 
-    .row-responsive {
-        flex-direction: column;
+    p {
+        font-size: var(--text-size-small);
     }
 
-    .notice-card {
-        width: 100%;
-        margin: 16px 0;
+    a {
+        font-size: var(--text-size-small);
+    }
+
+    h3 {
+        font-size: var(--text-size-normal);
+    }
+
+    .row-responsive {
+        flex-direction: column;
     }
 
     .header-top .university .name {
@@ -361,6 +372,17 @@ h3 {
 
     .header-main .logo {
         width: 100%;
+    }
+
+    .notice-card, .plant-card {
+        width: 100%;
+        margin: 16px 0;
+    }
+
+    .title-call, .btn-action {
+        width: 100%;
+        justify-content: center;
+        margin: var(--margin) 0;
     }
 
 }
