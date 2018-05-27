@@ -220,6 +220,14 @@ h3 {
     font-weight: 500;
 }
 
+/* ----- 404 ----- */
+
+.error-page {
+    min-height: 900px;
+    background-color: #eff0eb;
+    color: #4b8765;
+}
+
 /* ----- NOTICES CARDS ----- */
 
 .notice-card {
