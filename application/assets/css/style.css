@@ -296,6 +296,28 @@ h3 {
     justify-content: flex-end;
 }
 
+/* ----- FOOTER ----- */
+
+footer {
+    min-height: 50px;
+    background-color: #2b2c31;
+    padding: var(--padding) 0;
+}
+
+.bottom-footer {
+    color: var(--white);
+    padding: var(--padding) 0;
+}
+
+.bottom-footer p {
+    font-size: var(--text-size-small);
+}
+
+.bottom-footer a {
+    color: var(--white);
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1200px) {
 
     body {

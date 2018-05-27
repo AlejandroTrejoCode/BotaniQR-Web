@@ -21,9 +21,11 @@
 
     <?php require_once 'application/views/templates/notices-cards.php'?>
 
-    <?php require_once 'application/views/templates/call.php'?>    
+    <?php require_once 'application/views/templates/call.php'?>
 
     <?php require_once 'application/views/templates/plants-cards.php'?>
+
+    <?php require_once 'application/views/templates/footer.php'?>
 
     <script async src="<?php echo SERVER_URL ?>application/assets/js/main.js"></script>
 
