@@ -17,13 +17,21 @@
 </head>
 <body>
 
-    <?php require_once 'application/views/templates/header.php'?>
+    <?php
 
-    <?php require_once 'application/views/templates/notices-cards.php'?>
+        //Header
+        require_once 'application/views/templates/header.php';
 
-    <?php require_once 'application/views/templates/call.php'?>
+        //Dinamic Page
+        require_once 'application/controllers/viewController.php';
+        $viewController = new viewController();
+        $view = $viewController -> getViewController();
+        require_once $view;
 
-    <?php require_once 'application/views/templates/plants-cards.php'?>
+        //Footer
+        require_once 'application/views/templates/footer.php';
+
+    ?>
 
     <script async src="<?php echo SERVER_URL ?>application/assets/js/main.js"></script>
 

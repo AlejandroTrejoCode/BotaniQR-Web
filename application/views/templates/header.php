@@ -20,13 +20,15 @@
         <div class="container">
             <div class="row">
                 <div class="logo responsive-img">
-                    <img src="<?php echo SERVER_URL ?>application/assets/img/LogoBotaniQR.png" alt="BotaniQR Logo">
+                    <a href="<?php echo SERVER_URL ?>inicio">
+                        <img src="<?php echo SERVER_URL ?>application/assets/img/LogoBotaniQR.png" alt="BotaniQR Logo">
+                    </a>
                 </div>
                 <nav class="flex align">
                     <ul class="flex">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Explorar</a></li>
-                        <li><a href="#">Noticias</a></li>
+                        <li><a href="<?php echo SERVER_URL ?>inicio">Inicio</a></li>
+                        <li><a href="<?php echo SERVER_URL ?>explorar">Explorar</a></li>
+                        <li><a href="<?php echo SERVER_URL ?>noticias">Noticias</a></li>
                     </ul>
                 </nav>
             </div>
