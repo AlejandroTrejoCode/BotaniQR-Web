@@ -4,7 +4,7 @@
 
         protected function getViewModel( $view ) {
 
-            $validRoutes = ["inicio", "explorar", "noticias", "404"];
+            $validRoutes = ["inicio", "explorar", "noticias", "404", "imprimir"];
 
             if (in_array($view, $validRoutes)) {
 
