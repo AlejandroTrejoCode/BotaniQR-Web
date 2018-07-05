@@ -38,7 +38,7 @@
                                         <p>
                                             Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
                                         </p>
-                                        <a href="#" class="read-more">
+                                        <a href="<?php echo SERVER_URL?>noticia" class="read-more">
                                             Leer Noticia
                                             <i class="fa fa-angle-right" aria-hidden="true"></i>
                                         </a>
@@ -76,7 +76,7 @@
                                         <p>
                                             Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
                                         </p>
-                                        <a href="#" class="read-more">
+                                        <a href="<?php echo SERVER_URL?>noticia" class="read-more">
                                             Leer Noticia
                                             <i class="fa fa-angle-right" aria-hidden="true"></i>
                                         </a>
@@ -114,7 +114,7 @@
                                         <p>
                                             Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
                                         </p>
-                                        <a href="#" class="read-more">
+                                        <a href="<?php echo SERVER_URL?>noticia" class="read-more">
                                             Leer Noticia
                                             <i class="fa fa-angle-right" aria-hidden="true"></i>
                                         </a>
