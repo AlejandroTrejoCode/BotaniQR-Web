@@ -400,6 +400,34 @@ footer {
     color: var(--darkGray);
 }
 
+/* ----- Planta ----- */
+
+.cname {
+    font-style: italic;
+    color: var(--darkGray);
+}
+
+.cname h3 {
+    font-size: var(--text-size-small);
+}
+
+.planta .plant-container .left {
+    width: 45%;
+}
+
+.planta .plant-container .right {
+    width: 55%;
+}
+
+.plant-container .right h3 {
+    padding: 0;
+    color: #4f4f4f;
+}
+
+.plant-container .right p {
+    color: #666666;    
+}
+
 @media screen and (max-width: 1200px) {
 
     body {
