@@ -4,7 +4,7 @@
         <div class="column">
             <div class="row">
                 <div class="title">
-                    <h2>Últimas Plantas</h2>
+                    <h2>Nuevas Plantas</h2>
                 </div>
             </div>
             <div class="white-space-16"></div>
