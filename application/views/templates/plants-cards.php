@@ -1,202 +1,76 @@
-<div class="white-space-25"></div>
-<div class="plants-cards flex justify">
+<div class="plantas flex justify-center">
     <div class="container">
         <div class="column">
-            <div class="row">
-                <div class="title">
-                    <h2>Nuevas Plantas</h2>
-                </div>
+
+            <div class="white-space-64"></div>
+            <div class="title">
+                <h2>Plantas Nuevas</h2>
             </div>
-            <div class="white-space-16"></div>
-            <div class="row">
-                <div class="cards-container row-responsive">
-                    <div class="plant-card">
+            <div class="white-space-32"></div>
+
+            <div class="plantas-contanedor">
+
+                <div class="row-responsive">
+                    <div class="planta-card">
                         <div class="column">
-                            <div class="card-image responsive-img">
-                                <img src="<?php echo SERVER_URL?>application/assets/img/planta1.jpg" alt="" title="">
+                            <div class="featured-img responsive-img">
+                                <img src="<?php echo SERVER_URL ?>application/assets/img/planta1.jpg" alt="">
                             </div>
-                            <div class="card-title justify">
-                                <h3>Nullam ullamcorper nisl quis ornare molestie</h3>
-                            </div>
-                            <div class="card-details row">
-                                <div class="card-status">
-                                    <div class="column justify">
-                                        <i class="fa fa-thermometer-half" aria-hidden="true"></i>
+                            <div class="container">
+                                <div class="column">
+                                    <div class="date"></div>
+                                    <div class="title">
+                                        <h3>Capsicum annuum var. glabriusculum</h3>
                                     </div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="column">
-                                        <p>
-                                            Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
-                                        </p>
-                                        <a href="#" class="read-more">
-                                            Conocer Más
-                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                        </a>
+                                    <div class="description">
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     </div>
+                                    <a class="read-more" href="#">Leer Más</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="plant-card">
+                    </div> <!-- End Card -->
+                    <div class="planta-card">
                         <div class="column">
-                            <div class="card-image responsive-img">
-                                <img src="<?php echo SERVER_URL?>application/assets/img/planta2.jpg" alt="" title="">
+                            <div class="featured-img responsive-img">
+                                <img src="<?php echo SERVER_URL ?>application/assets/img/planta2.jpg" alt="">
                             </div>
-                            <div class="card-title justify">
-                                <h3>Nullam ullamcorper nisl quis ornare molestie</h3>
-                            </div>
-                            <div class="card-details row">
-                                <div class="card-status">
-                                    <div class="column justify">
-                                        <i class="fa fa-thermometer-half" aria-hidden="true"></i>
+                            <div class="container">
+                                <div class="column">
+                                    <div class="date"></div>
+                                    <div class="title">
+                                        <h3>Capsicum annuum var. glabriusculum</h3>
                                     </div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="column">
-                                        <p>
-                                            Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
-                                        </p>
-                                        <a href="#" class="read-more">
-                                            Conocer Más
-                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                        </a>
+                                    <div class="description">
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     </div>
+                                    <a class="read-more" href="#">Leer Más</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="plant-card">
+                    </div> <!-- End Card -->
+                    <div class="planta-card">
                         <div class="column">
-                            <div class="card-image responsive-img">
-                                <img src="<?php echo SERVER_URL?>application/assets/img/planta1.jpg" alt="" title="">
+                            <div class="featured-img responsive-img">
+                                <img src="<?php echo SERVER_URL ?>application/assets/img/planta1.jpg" alt="">
                             </div>
-                            <div class="card-title justify">
-                                <h3>Nullam ullamcorper nisl quis ornare molestie</h3>
-                            </div>
-                            <div class="card-details row">
-                                <div class="card-status">
-                                    <div class="column justify">
-                                        <i class="fa fa-thermometer-half" aria-hidden="true"></i>
+                            <div class="container">
+                                <div class="column">
+                                    <div class="date"></div>
+                                    <div class="title">
+                                        <h3>Capsicum annuum var. glabriusculum</h3>
                                     </div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="column">
-                                        <p>
-                                            Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
-                                        </p>
-                                        <a href="#" class="read-more">
-                                            Conocer Más
-                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                        </a>
+                                    <div class="description">
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     </div>
+                                    <a class="read-more" href="#">Leer Más</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="cards-container row-responsive">
-                    <div class="plant-card">
-                        <div class="column">
-                            <div class="card-image responsive-img">
-                                <img src="<?php echo SERVER_URL?>application/assets/img/planta1.jpg" alt="" title="">
-                            </div>
-                            <div class="card-title justify">
-                                <h3>Nullam ullamcorper nisl quis ornare molestie</h3>
-                            </div>
-                            <div class="card-details row">
-                                <div class="card-status">
-                                    <div class="column justify">
-                                        <i class="fa fa-thermometer-half" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="column">
-                                        <p>
-                                            Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
-                                        </p>
-                                        <a href="#" class="read-more">
-                                            Conocer Más
-                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="plant-card">
-                        <div class="column">
-                            <div class="card-image responsive-img">
-                                <img src="<?php echo SERVER_URL?>application/assets/img/planta2.jpg" alt="" title="">
-                            </div>
-                            <div class="card-title justify">
-                                <h3>Nullam ullamcorper nisl quis ornare molestie</h3>
-                            </div>
-                            <div class="card-details row">
-                                <div class="card-status">
-                                    <div class="column justify">
-                                        <i class="fa fa-thermometer-half" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="column">
-                                        <p>
-                                            Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
-                                        </p>
-                                        <a href="#" class="read-more">
-                                            Conocer Más
-                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="plant-card">
-                        <div class="column">
-                            <div class="card-image responsive-img">
-                                <img src="<?php echo SERVER_URL?>application/assets/img/planta1.jpg" alt="" title="">
-                            </div>
-                            <div class="card-title justify">
-                                <h3>Nullam ullamcorper nisl quis ornare molestie</h3>
-                            </div>
-                            <div class="card-details row">
-                                <div class="card-status">
-                                    <div class="column justify">
-                                        <i class="fa fa-thermometer-half" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="column">
-                                        <p>
-                                            Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
-                                        </p>
-                                        <a href="#" class="read-more">
-                                            Conocer Más
-                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-
-        </div>
-    </div>
-</div>
-<div class="white-space-25">
-
+                    </div> <!-- End Card -->
+                </div> <!-- End Row-responsive -->
+            </div> <!-- End Plantas Contenedor -->
+            <div class="white-space-32"></div>
+        </div> <!-- End Main Column -->
+    </div> <!-- End Main Container -->
 </div>

@@ -348,13 +348,8 @@ label {
     padding: 0 var(--paddingNormal);
 }
 
-.btn-blue {
-    background-color: var(--blueLink);
-    color: var(--white);
-}
-
-.btn-teal {
-    background-color: var(--blueTeal);
+.btn-lightgreen {
+    background-color: var(--lightGreen);
     color: var(--white);
 }
 

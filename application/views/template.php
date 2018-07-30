@@ -28,7 +28,7 @@
         require_once $view;
 
         //Footer
-        require_once 'application/views/templates/footer.php';
+        //require_once 'application/views/templates/footer.php';
 
     ?>
 
