@@ -1,4 +1,4 @@
-<div class="white-space-25"></div>
+
 <footer class="flex justify align">
     <div class="container">
         <div class="column">

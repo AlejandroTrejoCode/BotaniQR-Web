@@ -1,13 +1,15 @@
-<div class="white-space-16"></div>
-<div class="call flex justify">
-    <div class="container">
-        <div class="call-container justify">
-            <div class="container row-responsive space-between">
-                <div class="title-call align">
-                    <i class="fa fa-pagelines fa-2x" aria-hidden="true"></i><h2>Aún puedes adoptar una planta o árbol</h2>
-                </div>
-                <div class="btn-action align">
-                    <a class="btn btn-white" href="#">ADOPTAR</a>
+<div class="call-to-action flex">
+    <div class="column">
+        <div class="adoptar justify-center">
+            <div class="container">
+                <div class="row">
+                    <div class="legend color-white align-center">
+                        <i class="fab fa-pagelines fa-2x"></i>
+                        <h3 class="color-white">&nbsp Aún puedes adoptar una planta o árbol</h3>
+                    </div>
+                    <div class="call-button justify-end align-center">
+                        <a class="btn btn-lightgreen" href="#">ADOPTAR PLANTAS</a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,131 +1,151 @@
-<div class="white-space-25"></div>
-<div class="notices-cards flex justify">
+<div class="noticias flex justify-center">
     <div class="container">
         <div class="column">
-            <div class="row">
-                <div class="title">
-                    <h2>Últimas Noticias</h2>
-                </div>
+
+            <div class="white-space-64"></div>
+            <div class="title">
+                <h2>Últimas Noticias</h2>
             </div>
+            <div class="white-space-32"></div>
+
+            <div class="noticias-contanedor">
+
+                <div class="row-responsive">
+                    <div class="noticia-card">
+                        <div class="column">
+                            <div class="featured-img responsive-img">
+                                <img src="<?php echo SERVER_URL ?>application/assets/img/notice1.jpg" alt="">
+                            </div>
+                            <div class="container">
+                                <div class="column">
+                                    <div class="date">
+                                        <p>2 de Marzo, 2018</p>
+                                    </div>
+                                    <div class="title">
+                                        <h3>Científicos se pronuncian a favor de productos transgénicos</h3>
+                                    </div>
+                                    <div class="description">
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+                                    </div>
+                                    <a class="read-more" href="#">Leer Más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End Card -->
+                    <div class="noticia-card">
+                        <div class="column">
+                            <div class="featured-img responsive-img">
+                                <img src="<?php echo SERVER_URL ?>application/assets/img/notice2.jpg" alt="">
+                            </div>
+                            <div class="container">
+                                <div class="column">
+                                    <div class="date">
+                                        <p>2 de Marzo, 2018</p>
+                                    </div>
+                                    <div class="title">
+                                        <h3>Científicos se pronuncian a favor de productos transgénicos</h3>
+                                    </div>
+                                    <div class="description">
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+                                    </div>
+                                    <a class="read-more" href="#">Leer Más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End Card -->
+                    <div class="noticia-card">
+                        <div class="column">
+                            <div class="featured-img responsive-img">
+                                <img src="<?php echo SERVER_URL ?>application/assets/img/notice1.jpg" alt="">
+                            </div>
+                            <div class="container">
+                                <div class="column">
+                                    <div class="date">
+                                        <p>2 de Marzo, 2018</p>
+                                    </div>
+                                    <div class="title">
+                                        <h3>Científicos se pronuncian a favor de productos transgénicos</h3>
+                                    </div>
+                                    <div class="description">
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+                                    </div>
+                                    <a class="read-more" href="#">Leer Más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End Card -->
+                </div> <!-- End Row-responsive -->
+            </div> <!-- End Noticias Contenedor -->
             <div class="white-space-16"></div>
-            <div class="row">
-                <div class="cards-container row-responsive">
-                    <div class="notice-card">
+            <div class="noticias-contanedor">
+
+                <div class="row-responsive">
+                    <div class="noticia-card">
                         <div class="column">
-                            <div class="card-image responsive-img">
-                                <img src="<?php echo SERVER_URL?>application/assets/img/notice1.jpg" alt="" title="">
+                            <div class="featured-img responsive-img">
+                                <img src="<?php echo SERVER_URL ?>application/assets/img/notice1.jpg" alt="">
                             </div>
-                            <div class="card-title justify">
-                                <h3>Nullam ullamcorper nisl quis ornare molestie</h3>
-                            </div>
-                            <div class="card-details row">
-                                <div class="card-date">
-                                    <div class="column justify">
-                                        <p>
-                                            <time>
-                                                ABR
-                                            </time>
-                                        </p>
-                                        <p>
-                                            <time>
-                                                26
-                                            </time>
-                                        </p>
+                            <div class="container">
+                                <div class="column">
+                                    <div class="date">
+                                        <p>2 de Marzo, 2018</p>
                                     </div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="column">
-                                        <p>
-                                            Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
-                                        </p>
-                                        <a href="<?php echo SERVER_URL?>noticia" class="read-more">
-                                            Leer Noticia
-                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                        </a>
+                                    <div class="title">
+                                        <h3>Científicos se pronuncian a favor de productos transgénicos</h3>
                                     </div>
+                                    <div class="description">
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+                                    </div>
+                                    <a class="read-more" href="#">Leer Más</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="notice-card">
+                    </div> <!-- End Card -->
+                    <div class="noticia-card">
                         <div class="column">
-                            <div class="card-image responsive-img">
-                                <img src="<?php echo SERVER_URL?>application/assets/img/notice2.jpg" alt="" title="">
+                            <div class="featured-img responsive-img">
+                                <img src="<?php echo SERVER_URL ?>application/assets/img/notice2.jpg" alt="">
                             </div>
-                            <div class="card-title justify">
-                                <h3>Nullam ullamcorper nisl quis ornare molestie</h3>
-                            </div>
-                            <div class="card-details row">
-                                <div class="card-date">
-                                    <div class="column justify">
-                                        <p>
-                                            <time>
-                                                ABR
-                                            </time>
-                                        </p>
-                                        <p>
-                                            <time>
-                                                26
-                                            </time>
-                                        </p>
+                            <div class="container">
+                                <div class="column">
+                                    <div class="date">
+                                        <p>2 de Marzo, 2018</p>
                                     </div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="column">
-                                        <p>
-                                            Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
-                                        </p>
-                                        <a href="<?php echo SERVER_URL?>noticia" class="read-more">
-                                            Leer Noticia
-                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                        </a>
+                                    <div class="title">
+                                        <h3>Científicos se pronuncian a favor de productos transgénicos</h3>
                                     </div>
+                                    <div class="description">
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+                                    </div>
+                                    <a class="read-more" href="#">Leer Más</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="notice-card">
+                    </div> <!-- End Card -->
+                    <div class="noticia-card">
                         <div class="column">
-                            <div class="card-image responsive-img">
-                                <img src="<?php echo SERVER_URL?>application/assets/img/notice1.jpg" alt="" title="">
+                            <div class="featured-img responsive-img">
+                                <img src="<?php echo SERVER_URL ?>application/assets/img/notice1.jpg" alt="">
                             </div>
-                            <div class="card-title justify">
-                                <h3>Nullam ullamcorper nisl quis ornare molestie</h3>
-                            </div>
-                            <div class="card-details row">
-                                <div class="card-date">
-                                    <div class="column justify">
-                                        <p>
-                                            <time>
-                                                ABR
-                                            </time>
-                                        </p>
-                                        <p>
-                                            <time>
-                                                26
-                                            </time>
-                                        </p>
+                            <div class="container">
+                                <div class="column">
+                                    <div class="date">
+                                        <p>2 de Marzo, 2018</p>
                                     </div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="column">
-                                        <p>
-                                            Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit
-                                        </p>
-                                        <a href="<?php echo SERVER_URL?>noticia" class="read-more">
-                                            Leer Noticia
-                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                        </a>
+                                    <div class="title">
+                                        <h3>Científicos se pronuncian a favor de productos transgénicos</h3>
                                     </div>
+                                    <div class="description">
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+                                    </div>
+                                    <a class="read-more" href="#">Leer Más</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
+                    </div> <!-- End Card -->
+                </div> <!-- End Row-responsive -->
+            </div> <!-- End Noticias Contenedor -->
+            <div class="white-space-16"></div>
+        </div> <!-- End Main Column -->
+    </div> <!-- End Main Container -->
 </div>
