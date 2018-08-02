@@ -1,8 +1,7 @@
 
-<div class="white-space-32"></div>
 <div class="planta flex">
-
     <div class="column">
+        <div class="white-space-32"></div>
         <div class="row justify-center">
             <div class="container">
                 <div class="column">

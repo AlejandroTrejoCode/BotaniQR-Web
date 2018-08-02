@@ -7,7 +7,7 @@
     padding: 0 var(--paddingNormal);
 }
 
-header, .noticias, .plantas, .call-to-action, .error-page, .login, .planta {
+header, .noticias, .plantas, .call-to-action, .error-page, .login, .planta, .noticia {
     font-family: var(--Roboto);
 }
 
