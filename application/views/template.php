@@ -32,7 +32,7 @@
 
     ?>
 
-    <script async src="<?php echo SERVER_URL ?>application/assets/js/main.js"></script>    
+    <script async src="<?php echo SERVER_URL ?>application/assets/js/main.js"></script>
 
 </body>
 
