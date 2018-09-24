@@ -1,0 +1,253 @@
+
+/* --- //  Header --- */
+
+header {
+    font-family: var(--Roboto);
+}
+ 
+.header-top{
+    height: 50px;
+    font-size: var(--fontTiny);
+    background-color: var(--lightGreen);
+}
+
+.header-top .left, .header-top .right{
+    width: 50%;
+}
+
+.header-top .left .phone,
+.header-top .left .email
+{
+    padding: var(--paddingNormal);
+}
+
+.header-top .right .facebook-icon,
+.header-top .right .twitter-icon
+{
+    padding: var(--paddingNormal);
+}
+
+.header-main {
+    height: 95px;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--borderBackground);
+}
+
+.header-main .left{
+    width: 40%;
+}
+
+.header-main .right{
+    width: 60%;
+}
+
+header .header-main .logo {
+    justify-content: flex-start;
+}
+
+.header-main .right .nav-item a {
+    color: var(--darkGreen);
+    font-size: var(--fontText);
+}
+
+.header-main .right .nav-item, .header-main .right .nav-item a {
+    padding: var(--paddingNormal);
+}
+
+/* --- Hover Effect --- */
+
+.header-main .right .nav-item a {
+    position: relative;
+}
+
+.header-main .right .nav-item a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--lightGreen);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.header-main .right .nav-item a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* --- // End Hover Effect --- */
+
+
+/* --- // End Header --- */
+
+
+/* --- News --- */
+
+.news {
+    font-family: var(--Roboto);
+}
+
+.new-card {
+    background-color: var(--white);
+}
+
+ .news .news-cards .new-card {
+    margin: var(--paddingNormal);
+}
+
+ .news .news-cards .new-card .featured-img {
+    border-bottom: 4px solid var(--darkGreen);
+}
+
+ .new-card .date,
+ .new-card .description {
+    padding: var(--paddingNormal) var(--paddingMedium);
+}
+
+.new-card .new-title {
+    padding: 0 var(--paddingMedium);
+}
+
+.new-card .read-more {
+    padding: 0.5em var(--paddingMedium) var(--paddingSemi) var(--paddingMedium);
+}
+
+ .new-card .date p {
+    font-size: var(--fontMini);
+}
+
+ .new-card .date p:nth-child(2)::before {
+    content: '-';
+}
+
+ .new-card .description p {
+    font-size: var(--fontTiny);
+}
+
+ .new-card .read-more {
+    font-size: var(--fontMini);
+    font-weight: var(--weightSemi);
+}
+
+/* --- // End News --- */
+
+
+/* --- CTA --- */
+
+.cta-single {
+    font-family: var(--Roboto);
+}
+
+.cta-single .cta {
+    background-color: var(--darkGreen);
+    padding: var(--paddingMedium);
+}
+
+.cta2 {
+    justify-content: flex-end;
+}
+
+/* --- // End CTA --- */
+
+
+
+/*    LARGE DEVICES    */
+
+@media screen and (max-width: 1200px) {
+
+    .header-main .left {
+        width: 30%;
+    }
+
+    .header-main .right {
+        width: 70%;
+    }
+
+
+}
+
+/*    NOTEBOOKS, IPADS DEVICES    */
+
+@media screen and (max-width: 992px) {
+
+    .header-main .left {
+        width: 20%;
+    }
+
+    .header-main .right {
+        width: 80%;
+    }
+
+    .header-main .right .nav-item, .header-main .right .nav-item a {
+        padding: 5px;
+    }
+
+    .new-card .date {
+        flex-direction: column;
+    }
+
+    .new-card .date p:nth-child(2)::before {
+        content: '';
+    }
+
+}
+
+/*    TABLETS DEVICES    */
+
+@media screen and (max-width: 768px) {
+
+    header .header-top {
+        display: none;
+    }
+
+    header .header-main .left {
+        width: 100%;
+    }
+
+    header .header-main .logo {
+        justify-content: center;
+    }
+
+    header .header-main .logo img {
+        max-height: 50px;
+    }
+
+    header .header-main .right {
+        display: none;
+    }
+
+    .news .news-cards .new-card {
+        margin: var(--paddingNormal) 0;
+    }
+
+    .cta-single .cta {
+        padding: 0;
+    }
+
+    .cta1, .cta2 {
+        justify-content: center;     
+    }
+
+    .cta1 h3 {
+        padding: var(--paddingMedium);
+        text-align: center;
+    }
+
+    .cta2 {
+        padding-bottom: var(--paddingMedium);
+    }
+
+}
+
+/*    MOBILE DEVICES    */
+
+@media screen and (max-width: 576px) {
+
+
+
+}
