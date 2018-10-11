@@ -258,42 +258,61 @@ header .header-main .logo {
 /* --- Noticia --- */
 
 
-.noticia {
+.noticia, .planta {
     font-family: var(--Roboto);
 }
 
-.noticia .left, .noticia .right {
+.noticia .left, .noticia .right, .planta .left, .planta .right {
     margin: 0 var(--paddingMedium);
 }
 
-.noticia .left {
+.noticia .left, .planta .left {
     width: 75%;
     background-color: var(--white);
 }
 
-.noticia .right {
+.noticia .right, .planta .right {
     width: 25%;
 }
 
-.noticia .noticia-title {
+.noticia .noticia-title, .planta .planta-title {
     padding: var(--paddingSemi) var(--paddingMedium) var(--paddingNormal) var(--paddingMedium);
 }
 
-.noticia .banner-img {
+.noticia .banner-img, .planta .banner-img {
     border-bottom: 4px solid var(--darkGreen);
 }
 
-.noticia .noticia-date {
+.noticia .noticia-date, .planta .planta-date {
     padding: 0 var(--paddingMedium);
 }
 
-.noticia .noticia-date p, .noticia .noticia-carrera p {
+.noticia .noticia-date p, .noticia .noticia-carrera p, .planta .planta-date p, .planta .planta-carrera p {
     font-size: var(--fontMini);
 }
 
-.noticia .noticia-date i, .noticia .noticia-carrera i {
+.noticia .noticia-date i, .noticia .noticia-carrera i, .planta .planta-date i, .planta .planta-carrera i {
     color: #848484;
     font-size: var(--fontMini);
+}
+
+.planta .left {
+    width: 80%;
+    background-color: var(--white);
+}
+
+.planta .right {
+    width: 20%;
+}
+
+.planta .card-right {
+    background-color: var(--white);
+    padding: var(--paddingNormal) var(--paddingMedium);
+    border-radius: 5px;
+}
+
+.planta .card-right .responsive-img {
+    justify-content: flex-start;
 }
 
 .componente-parrafo {
@@ -364,6 +383,7 @@ header .header-main .logo {
     background-color: var(--white);
     border-radius: 5px;
 }
+
 
 @media screen and (max-width: 992px) {
 
